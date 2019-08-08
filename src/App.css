@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+.rbc-month-header {
+  display: flex;
+
+  background: #f5f6fa;
+  border-top: 1px solid #eaf0f4;
+  border-left: 1px solid #eaf0f4;
+  border-right: 1px solid #eaf0f4;
+}
+
+.myDiv {
+  width: 400px;
+  height: 400px;
+  border: 10px solid red;
+}
+
+.rbc-header {
+  flex: 1;
+  margin: 1.5em 4.5em;
+  font-size: 10px;
+
+  color: #a3a6b4;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+}
+
+.rbc-header span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #4d4f5c;
+  padding-top: 20px;
+}
+
+.main {
+  min-height: 100%;
+}
+
+.myForm {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #dcdcdc;
+  position: fixed;
+  z-index: 40;
+  background-color: white;
+
+  padding-bottom: 20px;
+}
+
+.editForm {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #dcdcdc;
+  position: fixed;
+  z-index: 40;
+
+  padding-bottom: 20px;
+}
+
+.edit {
+  display: flex;
+  padding: 0px 20px;
+  z-index: 200;
+  flex-direction: column;
+}
+
+.edit-inner {
+  width: 100%;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-inner div {
+  padding: 15px 0;
+  font-size: 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.form {
+  padding: 0px 20px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  outline: none;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 20px;
+}
+
+.close {
+  padding: 3px;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.buttons {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
